@@ -14,8 +14,7 @@ while player1 != 'rock' and player1 != 'paper' and player1 != 'scissors':
     player1 = input("Player1, What's valid your move? Answer: ").lower()
 
 # Using loop to hide the `player1` input
-for x in range(60):
-    print("!!!!============================= NO CHEATING =============================!!!!")
+print("!!!!============================= NO CHEATING =============================!!!!\n" * 60)
 
 
 # player2 input
