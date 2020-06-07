@@ -44,5 +44,8 @@ elif player1 == 'rock' and player2 == 'paper':
     print("Player2 wins")
 elif player1 == 'paper' and player2 == 'scissors':
     print("Player1 wins")
+elif player1 == player2:
+    print("Nobody wins!. Its a draw. Try Again")
+
 
 print('=============================================')
