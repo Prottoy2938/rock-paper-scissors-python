@@ -2,9 +2,9 @@ print("...Rock...")
 print("...Paper...")
 print("...Scissors...\n ")
 
-# player1 input
 print("===========Player1===============")
 
+# player1 input
 player1 = input("What's your move? Answer: ").lower()
 
 # Checking for valid input
@@ -17,9 +17,9 @@ while player1 != 'rock' and player1 != 'paper' and player1 != 'scissors':
 print("!!!!============================= NO CHEATING =============================!!!!\n" * 60)
 
 
-# player2 input
 print("\n===========Player2===============")
 
+# player2 input
 player2 = input("What's your move? Answer: ").lower()
 
 # Checking for valid input
@@ -35,21 +35,13 @@ print('\n \n=============================================')
 # Game Logic
 if player1 == player2:
     print("Nobody wins!. Its a draw. Try Again")
-
-elif player1 == "rock":
-    if player2 == "scissors":
-        print("Player1 wins!")
-    elif player2 == "paper":
-        print("Player2 wins!")
-elif player1 == "paper":
-    if player2 == "rock":
-        print("Player1 wins!")
-    elif player2 == "scissors":
-        print("Player2 wins!")
-elif player1 == "scissors":
-    if player2 == "paper":
-        print("Player1 wins!")
-    elif player2 == "rock":
-        print("Player2 wins!")
+elif player1 == "rock" and player2 == "scissors":
+    print("player1 wins!")
+elif player1 == "paper" and player2 == "rock":
+    print("player1 wins!")
+elif player1 == "scissors" and player2 == "paper":
+    print("player1 wins!")
+else:
+    print("player2 wins!")
 
 print('=============================================')
