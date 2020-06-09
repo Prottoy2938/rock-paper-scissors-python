@@ -1,6 +1,4 @@
-print("...Rock...")
-print("...Paper...")
-print("...Scissors...\n ")
+print("...Rock...\n...Paper...\n...Scissors...\n")
 
 print("===========Player1===============")
 
